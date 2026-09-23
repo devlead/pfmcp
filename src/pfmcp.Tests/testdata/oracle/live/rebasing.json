@@ -1,0 +1,33 @@
+{
+  "query": "rebasing",
+  "pageIds": [
+    "en_d54b98d",
+    "en_e893f87",
+    "en_53ee47d",
+    "en_f51a88e",
+    "en_64ca49a",
+    "en_a17b732",
+    "en_9cbd63b",
+    "en_fd5f19f"
+  ],
+  "scores": [
+    2.298194408416748,
+    1.4678443670272827,
+    1.3050040006637573,
+    0.9961678981781006,
+    0.6337937712669373,
+    0.601211667060852,
+    0.5983503460884094,
+    0.35666704177856445
+  ],
+  "urls": [
+    "https://www.devlead.se/posts/2021/2021-09-23-joining-the-net-foundation-board-of-directors.html",
+    "https://www.devlead.se/posts/2024/2024-09-22-preparing-for-dotnet-9.html",
+    "https://www.devlead.se/posts/2021/2021-03-03-introducing-cake-clickonce-recipe.html",
+    "https://www.devlead.se/posts/2021/2021-03-20-introducing-dpi.html",
+    "https://www.devlead.se/posts/2021/2021-01-15-my-preferred-console-stack.html",
+    "https://www.devlead.se/posts/2025/2025-03-12-static-web-app-wasm-search.html",
+    "https://www.devlead.se/posts/2026/2026-06-27-template-plus-source-package-my-dotnet-console-stack-in-2026.html",
+    "https://www.devlead.se/posts/2017/2017-01-25-being-a-good-open-source-citizen.html"
+  ]
+}

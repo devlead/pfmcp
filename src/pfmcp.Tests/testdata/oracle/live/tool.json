@@ -1,0 +1,45 @@
+{
+  "query": "tool",
+  "pageIds": [
+    "en_f51a88e",
+    "en_56cacda",
+    "en_9cadb25",
+    "en_579e6ab",
+    "en_e893f87",
+    "en_53ee47d",
+    "en_92254a8",
+    "en_de9db74",
+    "en_28547ff",
+    "en_f5fa845",
+    "en_e2d95e9",
+    "en_b687a21"
+  ],
+  "scores": [
+    1.4617795944213867,
+    1.4329302310943604,
+    1.4319896697998047,
+    1.3819708824157715,
+    1.381493091583252,
+    1.3451555967330933,
+    1.3232343196868896,
+    1.3073147535324097,
+    1.3049784898757935,
+    1.2946621179580688,
+    1.283454418182373,
+    1.2711586952209473
+  ],
+  "urls": [
+    "https://www.devlead.se/posts/2021/2021-03-20-introducing-dpi.html",
+    "https://www.devlead.se/posts/2025/2025-07-28-migrating-to-cake-sdk.html",
+    "https://www.devlead.se/posts/2025/2025-03-22-introducing-azdoi.html",
+    "https://www.devlead.se/posts/2017/2017-08-26-using-ngrok-with-azure-functions.html",
+    "https://www.devlead.se/posts/2024/2024-09-22-preparing-for-dotnet-9.html",
+    "https://www.devlead.se/posts/2021/2021-03-03-introducing-cake-clickonce-recipe.html",
+    "https://www.devlead.se/posts/2026/2026-02-26-renovate-csharp-file-based-apps.html",
+    "https://www.devlead.se/posts/2024/2024-02-08-introducing-ari.html",
+    "https://www.devlead.se/posts/2024/2024-09-05-introducing-blobify.html",
+    "https://www.devlead.se/posts/2026/2026-03-22-quarter-billion-nuget-downloads.html",
+    "https://www.devlead.se/posts/2023/2023-11-27-introducing-bri.html",
+    "https://www.devlead.se/posts/2025/2025-02-24-slnx-finally-here.html"
+  ]
+}

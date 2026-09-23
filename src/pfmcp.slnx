@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="pfmcp/pfmcp.csproj" />
+  <Project Path="pfmcp.Tests/pfmcp.Tests.csproj" />
+</Solution>

@@ -1,0 +1,6 @@
+{
+  "query": "cake",
+  "index": "fixture",
+  "pageIds": ["en_page1"],
+  "urls": ["/cake/"]
+}

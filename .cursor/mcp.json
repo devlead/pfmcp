@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "pfmcp": {
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "src/pfmcp/pfmcp.csproj",
+        "-v",
+        "q",
+        "--",
+        "serve",
+        "--index",
+        "devlead=https://www.devlead.se/pagefind/",
+        "--index",
+        "docs=src/pfmcp.Tests/testdata/pagefind"
+      ],
+      "env": {
+        "DOTNET_NOLOGO": "1",
+        "MSBUILDTERMINALLOGGER": "off"
+      }
+    }
+  }
+}

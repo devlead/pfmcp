@@ -1,0 +1,17 @@
+﻿{
+  Names: [
+    docs,
+    blog
+  ],
+  DocsCount: 1,
+  AllCount: 2,
+  Hits: [
+    {
+      Url: /cake/,
+      Title: Cake docs,
+      PageId: en_page1,
+      Index: docs,
+      Score: 4.6109786
+    }
+  ]
+}

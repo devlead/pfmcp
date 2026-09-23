@@ -1,0 +1,10 @@
+﻿[
+  {
+    Name: blog,
+    Source: https://www.devlead.se/pagefind/
+  },
+  {
+    Name: example.com,
+    Source: https://example.com/pagefind/
+  }
+]

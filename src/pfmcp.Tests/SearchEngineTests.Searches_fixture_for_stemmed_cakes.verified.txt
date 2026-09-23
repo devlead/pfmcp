@@ -1,0 +1,9 @@
+﻿[
+  {
+    Url: /cake/,
+    Title: Cake docs,
+    Excerpt: Hello from the cake build tool documentation page.,
+    PageId: en_page1,
+    Score: 4.6109786
+  }
+]

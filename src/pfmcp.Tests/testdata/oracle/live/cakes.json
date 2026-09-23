@@ -1,0 +1,45 @@
+{
+  "query": "cakes",
+  "pageIds": [
+    "en_92254a8",
+    "en_56cacda",
+    "en_d31096a",
+    "en_a47ccfd",
+    "en_ea43c6c",
+    "en_4462d44",
+    "en_209fb24",
+    "en_53ee47d",
+    "en_a0b9b1d",
+    "en_4b71cbd",
+    "en_f51a88e",
+    "en_fd5f19f"
+  ],
+  "scores": [
+    41.79536056518555,
+    41.254947662353516,
+    38.46015930175781,
+    10.148923873901367,
+    9.702672004699707,
+    8.970560073852539,
+    8.851751327514648,
+    8.600790023803711,
+    8.088916778564453,
+    7.092121601104736,
+    3.2650060653686523,
+    3.0698235034942627
+  ],
+  "urls": [
+    "https://www.devlead.se/posts/2026/2026-02-26-renovate-csharp-file-based-apps.html",
+    "https://www.devlead.se/posts/2025/2025-07-28-migrating-to-cake-sdk.html",
+    "https://www.devlead.se/posts/2018/2018-06-03-cake.kudu.client-version-0.6.0-released.html",
+    "https://www.devlead.se/posts/2021/2021-01-12-introducing-cake-bridge-dependency-injection.html",
+    "https://www.devlead.se/posts/2017/2017-07-09-dispelling-the-magic.html",
+    "https://www.devlead.se/posts/2017/2017-02-22-bringing-cake-to-microsoft-teams.html",
+    "https://www.devlead.se/posts/2018/2018-03-26-deploying-net-core-to-azure-using-bitrise-and-cake.html",
+    "https://www.devlead.se/posts/2021/2021-03-03-introducing-cake-clickonce-recipe.html",
+    "https://www.devlead.se/posts/2018/2018-02-08-introducing-cake-kudu-client.html",
+    "https://www.devlead.se/posts/2018/2018-02-20-run-from-zip-with-cake-kudu-client.html",
+    "https://www.devlead.se/posts/2021/2021-03-20-introducing-dpi.html",
+    "https://www.devlead.se/posts/2017/2017-01-25-being-a-good-open-source-citizen.html"
+  ]
+}

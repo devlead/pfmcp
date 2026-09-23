@@ -1,0 +1,8 @@
+﻿{
+  PrefixCak: [
+    cake
+  ],
+  InverseRebasing: [
+    rebas
+  ]
+}

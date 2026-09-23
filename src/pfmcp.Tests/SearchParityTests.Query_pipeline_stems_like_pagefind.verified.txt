@@ -1,0 +1,16 @@
+﻿{
+  Original: [
+    cakes,
+    rebasing
+  ],
+  Stems: [
+    cake,
+    rebas
+  ],
+  IndexKeys: [
+    cakes,
+    cake,
+    rebasing,
+    rebas
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "query": "cake sdk",
+  "pageIds": [
+    "en_56cacda",
+    "en_92254a8",
+    "en_53ee47d",
+    "en_209fb24",
+    "en_f51a88e",
+    "en_f5fa845"
+  ],
+  "scores": [
+    45.94875717163086,
+    41.55349349975586,
+    7.886660575866699,
+    7.246297836303711,
+    6.053745269775391,
+    4.5158610343933105
+  ],
+  "urls": [
+    "https://www.devlead.se/posts/2025/2025-07-28-migrating-to-cake-sdk.html",
+    "https://www.devlead.se/posts/2026/2026-02-26-renovate-csharp-file-based-apps.html",
+    "https://www.devlead.se/posts/2021/2021-03-03-introducing-cake-clickonce-recipe.html",
+    "https://www.devlead.se/posts/2018/2018-03-26-deploying-net-core-to-azure-using-bitrise-and-cake.html",
+    "https://www.devlead.se/posts/2021/2021-03-20-introducing-dpi.html",
+    "https://www.devlead.se/posts/2026/2026-03-22-quarter-billion-nuget-downloads.html"
+  ]
+}

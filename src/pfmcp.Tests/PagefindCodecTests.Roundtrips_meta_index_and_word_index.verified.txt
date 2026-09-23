@@ -1,0 +1,130 @@
+﻿{
+  entry: {
+    Version: 1.5.2,
+    Languages: {
+      en: {
+        Hash: en_fixture,
+        Wasm: en,
+        PageCount: 2
+      }
+    },
+    IncludeCharacters: [
+      _
+    ]
+  },
+  meta: {
+    Version: 1.5.2,
+    Pages: [
+      {
+        Hash: en_page1,
+        WordCount: 12
+      },
+      {
+        Hash: en_page2,
+        WordCount: 10
+      }
+    ],
+    IndexChunks: [
+      {
+        From: a,
+        To: z,
+        Hash: en_chunk
+      }
+    ],
+    Filters: [
+      {
+        Filter: tag,
+        Hash: en_tag
+      }
+    ],
+    Sorts: [],
+    MetaFields: [
+      title
+    ],
+    AveragePageLength: 11.0
+  },
+  words: {
+    Words: [
+      {
+        Word: cake,
+        Pages: [
+          {
+            PageNumber: 0,
+            Locs: [
+              {
+                Item1: 25,
+                Item2: 3
+              }
+            ],
+            MetaLocs: [
+              {
+                Item1: 0,
+                Item2: 0
+              }
+            ]
+          }
+        ],
+        AdditionalVariants: []
+      },
+      {
+        Word: azure,
+        Pages: [
+          {
+            PageNumber: 1,
+            Locs: [
+              {
+                Item1: 25,
+                Item2: 2
+              }
+            ],
+            MetaLocs: []
+          }
+        ],
+        AdditionalVariants: []
+      },
+      {
+        Word: tool,
+        Pages: [
+          {
+            PageNumber: 0,
+            Locs: [
+              {
+                Item1: 25,
+                Item2: 6
+              }
+            ],
+            MetaLocs: []
+          },
+          {
+            PageNumber: 1,
+            Locs: [
+              {
+                Item1: 25,
+                Item2: 5
+              }
+            ],
+            MetaLocs: []
+          }
+        ],
+        AdditionalVariants: []
+      }
+    ]
+  },
+  fragment: {
+    Url: /cake/,
+    Content: Hello from the cake build tool documentation page.,
+    WordCount: 8,
+    Filters: {},
+    Meta: {
+      title: Cake docs
+    },
+    Anchors: [
+      {
+        Element: h2,
+        Id: intro,
+        Text: Intro,
+        Location: 0
+      }
+    ]
+  }
+}

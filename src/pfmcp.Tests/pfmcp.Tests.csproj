@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <OutputType>Exe</OutputType>
+    <UseMicrosoftTestingPlatformRunner>true</UseMicrosoftTestingPlatformRunner>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="Microsoft.Extensions.DependencyInjection" />
+    <Using Include="Pfmcp.Commands" />
+    <Using Include="Pfmcp.Services" />
+    <Using Include="Pfmcp.Services.Pagefind" />
+    <Using Include="Pfmcp.Services.Pagefind.Models" />
+    <Using Include="Pfmcp.Services.Pagefind.Stemming" />
+    <Using Include="VerifyTests" />
+    <Using Include="VerifyTests.DiffPlex" />
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Verify.DiffPlex" />
+    <PackageReference Include="Verify.XunitV3" />
+    <PackageReference Include="xunit.v3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\pfmcp\pfmcp.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="testdata\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,242 @@
+[
+  {
+    "query": "cake",
+    "pageIds": [
+      "en_92254a8",
+      "en_56cacda",
+      "en_d31096a",
+      "en_ea43c6c",
+      "en_a47ccfd",
+      "en_53ee47d",
+      "en_4462d44",
+      "en_209fb24",
+      "en_a0b9b1d",
+      "en_4b71cbd",
+      "en_f51a88e",
+      "en_fd5f19f"
+    ],
+    "scores": [
+      43.521331787109375,
+      41.88850784301758,
+      38.46015930175781,
+      13.854256629943848,
+      11.807729721069336,
+      9.158514976501465,
+      9.153088569641113,
+      8.851751327514648,
+      8.23971176147461,
+      7.092121601104736,
+      3.2650060653686523,
+      3.0698235034942627
+    ],
+    "urls": [
+      "https://www.devlead.se/posts/2026/2026-02-26-renovate-csharp-file-based-apps.html",
+      "https://www.devlead.se/posts/2025/2025-07-28-migrating-to-cake-sdk.html",
+      "https://www.devlead.se/posts/2018/2018-06-03-cake.kudu.client-version-0.6.0-released.html",
+      "https://www.devlead.se/posts/2017/2017-07-09-dispelling-the-magic.html",
+      "https://www.devlead.se/posts/2021/2021-01-12-introducing-cake-bridge-dependency-injection.html",
+      "https://www.devlead.se/posts/2021/2021-03-03-introducing-cake-clickonce-recipe.html",
+      "https://www.devlead.se/posts/2017/2017-02-22-bringing-cake-to-microsoft-teams.html",
+      "https://www.devlead.se/posts/2018/2018-03-26-deploying-net-core-to-azure-using-bitrise-and-cake.html",
+      "https://www.devlead.se/posts/2018/2018-02-08-introducing-cake-kudu-client.html",
+      "https://www.devlead.se/posts/2018/2018-02-20-run-from-zip-with-cake-kudu-client.html",
+      "https://www.devlead.se/posts/2021/2021-03-20-introducing-dpi.html",
+      "https://www.devlead.se/posts/2017/2017-01-25-being-a-good-open-source-citizen.html"
+    ]
+  },
+  {
+    "query": "cakes",
+    "pageIds": [
+      "en_92254a8",
+      "en_56cacda",
+      "en_d31096a",
+      "en_a47ccfd",
+      "en_ea43c6c",
+      "en_4462d44",
+      "en_209fb24",
+      "en_53ee47d",
+      "en_a0b9b1d",
+      "en_4b71cbd",
+      "en_f51a88e",
+      "en_fd5f19f"
+    ],
+    "scores": [
+      41.79536056518555,
+      41.254947662353516,
+      38.46015930175781,
+      10.148923873901367,
+      9.702672004699707,
+      8.970560073852539,
+      8.851751327514648,
+      8.600790023803711,
+      8.088916778564453,
+      7.092121601104736,
+      3.2650060653686523,
+      3.0698235034942627
+    ],
+    "urls": [
+      "https://www.devlead.se/posts/2026/2026-02-26-renovate-csharp-file-based-apps.html",
+      "https://www.devlead.se/posts/2025/2025-07-28-migrating-to-cake-sdk.html",
+      "https://www.devlead.se/posts/2018/2018-06-03-cake.kudu.client-version-0.6.0-released.html",
+      "https://www.devlead.se/posts/2021/2021-01-12-introducing-cake-bridge-dependency-injection.html",
+      "https://www.devlead.se/posts/2017/2017-07-09-dispelling-the-magic.html",
+      "https://www.devlead.se/posts/2017/2017-02-22-bringing-cake-to-microsoft-teams.html",
+      "https://www.devlead.se/posts/2018/2018-03-26-deploying-net-core-to-azure-using-bitrise-and-cake.html",
+      "https://www.devlead.se/posts/2021/2021-03-03-introducing-cake-clickonce-recipe.html",
+      "https://www.devlead.se/posts/2018/2018-02-08-introducing-cake-kudu-client.html",
+      "https://www.devlead.se/posts/2018/2018-02-20-run-from-zip-with-cake-kudu-client.html",
+      "https://www.devlead.se/posts/2021/2021-03-20-introducing-dpi.html",
+      "https://www.devlead.se/posts/2017/2017-01-25-being-a-good-open-source-citizen.html"
+    ]
+  },
+  {
+    "query": "rebasing",
+    "pageIds": [
+      "en_d54b98d",
+      "en_e893f87",
+      "en_53ee47d",
+      "en_f51a88e",
+      "en_64ca49a",
+      "en_a17b732",
+      "en_9cbd63b",
+      "en_fd5f19f"
+    ],
+    "scores": [
+      2.298194408416748,
+      1.4678443670272827,
+      1.3050040006637573,
+      0.9961678981781006,
+      0.6337937712669373,
+      0.601211667060852,
+      0.5983503460884094,
+      0.35666704177856445
+    ],
+    "urls": [
+      "https://www.devlead.se/posts/2021/2021-09-23-joining-the-net-foundation-board-of-directors.html",
+      "https://www.devlead.se/posts/2024/2024-09-22-preparing-for-dotnet-9.html",
+      "https://www.devlead.se/posts/2021/2021-03-03-introducing-cake-clickonce-recipe.html",
+      "https://www.devlead.se/posts/2021/2021-03-20-introducing-dpi.html",
+      "https://www.devlead.se/posts/2021/2021-01-15-my-preferred-console-stack.html",
+      "https://www.devlead.se/posts/2025/2025-03-12-static-web-app-wasm-search.html",
+      "https://www.devlead.se/posts/2026/2026-06-27-template-plus-source-package-my-dotnet-console-stack-in-2026.html",
+      "https://www.devlead.se/posts/2017/2017-01-25-being-a-good-open-source-citizen.html"
+    ]
+  },
+  {
+    "query": "Cake.",
+    "pageIds": [
+      "en_92254a8",
+      "en_56cacda",
+      "en_d31096a",
+      "en_ea43c6c",
+      "en_a47ccfd",
+      "en_53ee47d",
+      "en_4462d44",
+      "en_209fb24",
+      "en_a0b9b1d",
+      "en_4b71cbd",
+      "en_f51a88e",
+      "en_fd5f19f"
+    ],
+    "scores": [
+      43.521331787109375,
+      41.88850784301758,
+      38.46015930175781,
+      13.854256629943848,
+      11.807729721069336,
+      9.158514976501465,
+      9.153088569641113,
+      8.851751327514648,
+      8.23971176147461,
+      7.092121601104736,
+      3.2650060653686523,
+      3.0698235034942627
+    ],
+    "urls": [
+      "https://www.devlead.se/posts/2026/2026-02-26-renovate-csharp-file-based-apps.html",
+      "https://www.devlead.se/posts/2025/2025-07-28-migrating-to-cake-sdk.html",
+      "https://www.devlead.se/posts/2018/2018-06-03-cake.kudu.client-version-0.6.0-released.html",
+      "https://www.devlead.se/posts/2017/2017-07-09-dispelling-the-magic.html",
+      "https://www.devlead.se/posts/2021/2021-01-12-introducing-cake-bridge-dependency-injection.html",
+      "https://www.devlead.se/posts/2021/2021-03-03-introducing-cake-clickonce-recipe.html",
+      "https://www.devlead.se/posts/2017/2017-02-22-bringing-cake-to-microsoft-teams.html",
+      "https://www.devlead.se/posts/2018/2018-03-26-deploying-net-core-to-azure-using-bitrise-and-cake.html",
+      "https://www.devlead.se/posts/2018/2018-02-08-introducing-cake-kudu-client.html",
+      "https://www.devlead.se/posts/2018/2018-02-20-run-from-zip-with-cake-kudu-client.html",
+      "https://www.devlead.se/posts/2021/2021-03-20-introducing-dpi.html",
+      "https://www.devlead.se/posts/2017/2017-01-25-being-a-good-open-source-citizen.html"
+    ]
+  },
+  {
+    "query": "cake sdk",
+    "pageIds": [
+      "en_56cacda",
+      "en_92254a8",
+      "en_53ee47d",
+      "en_209fb24",
+      "en_f51a88e",
+      "en_f5fa845"
+    ],
+    "scores": [
+      45.94875717163086,
+      41.55349349975586,
+      7.886660575866699,
+      7.246297836303711,
+      6.053745269775391,
+      4.5158610343933105
+    ],
+    "urls": [
+      "https://www.devlead.se/posts/2025/2025-07-28-migrating-to-cake-sdk.html",
+      "https://www.devlead.se/posts/2026/2026-02-26-renovate-csharp-file-based-apps.html",
+      "https://www.devlead.se/posts/2021/2021-03-03-introducing-cake-clickonce-recipe.html",
+      "https://www.devlead.se/posts/2018/2018-03-26-deploying-net-core-to-azure-using-bitrise-and-cake.html",
+      "https://www.devlead.se/posts/2021/2021-03-20-introducing-dpi.html",
+      "https://www.devlead.se/posts/2026/2026-03-22-quarter-billion-nuget-downloads.html"
+    ]
+  },
+  {
+    "query": "tool",
+    "pageIds": [
+      "en_f51a88e",
+      "en_56cacda",
+      "en_9cadb25",
+      "en_579e6ab",
+      "en_e893f87",
+      "en_53ee47d",
+      "en_92254a8",
+      "en_de9db74",
+      "en_28547ff",
+      "en_f5fa845",
+      "en_e2d95e9",
+      "en_b687a21"
+    ],
+    "scores": [
+      1.4617795944213867,
+      1.4329302310943604,
+      1.4319896697998047,
+      1.3819708824157715,
+      1.381493091583252,
+      1.3451555967330933,
+      1.3232343196868896,
+      1.3073147535324097,
+      1.3049784898757935,
+      1.2946621179580688,
+      1.283454418182373,
+      1.2711586952209473
+    ],
+    "urls": [
+      "https://www.devlead.se/posts/2021/2021-03-20-introducing-dpi.html",
+      "https://www.devlead.se/posts/2025/2025-07-28-migrating-to-cake-sdk.html",
+      "https://www.devlead.se/posts/2025/2025-03-22-introducing-azdoi.html",
+      "https://www.devlead.se/posts/2017/2017-08-26-using-ngrok-with-azure-functions.html",
+      "https://www.devlead.se/posts/2024/2024-09-22-preparing-for-dotnet-9.html",
+      "https://www.devlead.se/posts/2021/2021-03-03-introducing-cake-clickonce-recipe.html",
+      "https://www.devlead.se/posts/2026/2026-02-26-renovate-csharp-file-based-apps.html",
+      "https://www.devlead.se/posts/2024/2024-02-08-introducing-ari.html",
+      "https://www.devlead.se/posts/2024/2024-09-05-introducing-blobify.html",
+      "https://www.devlead.se/posts/2026/2026-03-22-quarter-billion-nuget-downloads.html",
+      "https://www.devlead.se/posts/2023/2023-11-27-introducing-bri.html",
+      "https://www.devlead.se/posts/2025/2025-02-24-slnx-finally-here.html"
+    ]
+  }
+]

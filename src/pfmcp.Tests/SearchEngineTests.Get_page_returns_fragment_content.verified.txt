@@ -1,0 +1,19 @@
+﻿{
+  Index: docs,
+  PageId: en_page1,
+  Url: /cake/,
+  Title: Cake docs,
+  Content: Hello from the cake build tool documentation page.,
+  Meta: {
+    title: Cake docs
+  },
+  Anchors: [
+    {
+      Element: h2,
+      Id: intro,
+      Text: Intro,
+      Location: 0
+    }
+  ],
+  Truncated: false
+}

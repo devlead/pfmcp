@@ -1,0 +1,7 @@
+{
+  "query": "cakes",
+  "index": "fixture",
+  "pageIds": ["en_page1"],
+  "urls": ["/cake/"],
+  "notes": "Snowball cakes -> cake; current unstemmed SearchEngine misses this page"
+}

@@ -1,0 +1,9 @@
+﻿[
+  {
+    Url: /azure/,
+    Title: Azure identity,
+    Excerpt: Using azure identity for the tool.,
+    PageId: en_page2,
+    Score: 0.3270187
+  }
+]

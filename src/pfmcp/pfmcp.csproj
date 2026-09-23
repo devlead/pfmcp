@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>pfmcp</ToolCommandName>
+    <PackageId>pfmcp</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon/pfmcp.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="pfmcp.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="ModelContextProtocol.Server" />
+    <Using Include="Pfmcp.Commands" />
+    <Using Include="Pfmcp.Services" />
+    <Using Include="Pfmcp.Services.Pagefind" />
+    <Using Include="Pfmcp.Services.Pagefind.Models" />
+    <Using Include="Pfmcp.Services.Pagefind.Stemming" />
+    <Using Include="Spectre.Console" />
+    <Using Include="Spectre.Console.Cli" />
+    <Using Include="System.ComponentModel" />
+    <Using Include="System.Formats.Cbor" />
+    <Using Include="System.Text.Json" />
+    <Using Include="System.Text.Json.Serialization" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Devlead.Console" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" />
+    <PackageReference Include="Microsoft.Extensions.Http" />
+    <PackageReference Include="ModelContextProtocol" />
+    <PackageReference Include="System.Formats.Cbor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="\" />
+    <None Include="../../icon/pfmcp.png" Pack="true" PackagePath="icon/pfmcp.png" />
+    <None Include="../../icon/LICENSE.md" Pack="true" PackagePath="icon/LICENSE.md" />
+  </ItemGroup>
+
+</Project>
