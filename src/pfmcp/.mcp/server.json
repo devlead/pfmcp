@@ -1,0 +1,37 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.devlead/pfmcp",
+  "title": "pfmcp",
+  "description": "Search Pagefind indexes and expose them to agents over MCP stdio.",
+  "version": "1.0.0",
+  "websiteUrl": "https://github.com/devlead/pfmcp",
+  "packages": [
+    {
+      "registryType": "nuget",
+      "registryBaseUrl": "https://api.nuget.org",
+      "identifier": "pfmcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [],
+      "environmentVariables": [
+        {
+          "name": "PFMCP_INDEXES",
+          "value": "{indexes}",
+          "variables": {
+            "indexes": {
+              "description": "Semicolon-separated Pagefind indexes (name=url or path). Alternative to repeatable --index.",
+              "isRequired": true,
+              "isSecret": false
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/devlead/pfmcp",
+    "source": "github"
+  }
+}

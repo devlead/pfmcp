@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackAsTool>true</PackAsTool>
+    <PackageType>McpServer</PackageType>
     <ToolCommandName>pfmcp</ToolCommandName>
     <PackageId>pfmcp</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -41,6 +42,7 @@
 
   <ItemGroup>
     <None Include="../../README.md" Pack="true" PackagePath="\" />
+    <None Include=".mcp/server.json" Pack="true" PackagePath="/.mcp/" />
     <None Include="../../icon/pfmcp.png" Pack="true" PackagePath="icon/pfmcp.png" />
     <None Include="../../icon/LICENSE.md" Pack="true" PackagePath="icon/LICENSE.md" />
   </ItemGroup>
