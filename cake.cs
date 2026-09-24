@@ -210,6 +210,37 @@ Task("NuGet-Login")
                 WorkingDirectory = data.IntegrationTestPath
             })
     )
+.Then("Integration-Tests-Tool-Inspect-OnDisk")
+    .Does<BuildData>(
+        static (context, data) => context.DotNetTool(
+            "tool",
+            new DotNetToolSettings
+            {
+                ArgumentCustomization = args => args
+                    .Append("run")
+                    .Append("--")
+                    .Append("pfmcp")
+                    .Append("inspect")
+                    .AppendSwitchQuoted("--index", $"testdata={data.TestPagefindPath.FullPath}"),
+                WorkingDirectory = data.IntegrationTestPath
+            })
+    )
+.Then("Integration-Tests-Tool-Search-OnDisk")
+    .Does<BuildData>(
+        static (context, data) => context.DotNetTool(
+            "tool",
+            new DotNetToolSettings
+            {
+                ArgumentCustomization = args => args
+                    .Append("run")
+                    .Append("--")
+                    .Append("pfmcp")
+                    .Append("search")
+                    .AppendSwitchQuoted("--index", $"testdata={data.TestPagefindPath.FullPath}")
+                    .Append("cake"),
+                WorkingDirectory = data.IntegrationTestPath
+            })
+    )
 .Then("Integration-Tests")
     .Default()
 .Then("Push-GitHub-Packages")
