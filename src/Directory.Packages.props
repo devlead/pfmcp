@@ -8,7 +8,7 @@
     <PackageVersion Include="Devlead.Console" Version="2026.9.9.890" />
     <PackageVersion Include="Microsoft.Extensions.Hosting" Version="10.0.11" />
     <PackageVersion Include="Microsoft.Extensions.Http" Version="10.0.11" />
-    <PackageVersion Include="ModelContextProtocol" Version="1.4.0" />
+    <PackageVersion Include="ModelContextProtocol" Version="1.4.1" />
     <PackageVersion Include="System.Formats.Cbor" Version="10.0.12" />
     <PackageVersion Include="Verify.DiffPlex" Version="3.3.1" />
     <PackageVersion Include="Verify.XunitV3" Version="33.1.1" />
