@@ -20,6 +20,8 @@ public record BuildData(
 
     public DirectoryPath IntegrationTestPath { get; } = OutputPath.Combine(IntegrationTest);
 
+    public DirectoryPath TestPagefindPath { get; } = ProjectRoot.Combine("pfmcp.Tests/testdata/pagefind");
+
     public string? GitHubNuGetSource { get; } = System.Environment.GetEnvironmentVariable("GH_PACKAGES_NUGET_SOURCE");
     public string? GitHubNuGetApiKey { get; } = System.Environment.GetEnvironmentVariable("GITHUB_TOKEN");
 

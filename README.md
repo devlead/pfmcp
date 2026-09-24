@@ -37,6 +37,29 @@ Run from NuGet with `dnx` (.NET 10 SDK). Tool arguments go after `--`.
 
 `--index` is repeatable. `name=source` labels each bundle. Omit `--index` and set `PFMCP_INDEXES` to `devlead=https://...;docs=https://...` if you prefer env.
 
+A Pagefind folder on disk works the same way. Paths are relative to the MCP working directory (the workspace root in Cursor):
+
+```json
+{
+  "mcpServers": {
+    "pfmcp": {
+      "command": "dnx",
+      "args": [
+        "pfmcp",
+        "--yes",
+        "--",
+        "--index",
+        "docs=./site/pagefind",
+        "--index",
+        "blog=https://www.devlead.se/pagefind/"
+      ]
+    }
+  }
+}
+```
+
+Use a `pagefind/` directory or a `pagefind-entry.json` file. Absolute paths are fine if the index lives outside the workspace.
+
 Local development (this repo): [`.cursor/mcp.json`](.cursor/mcp.json) runs
 
 ```text
