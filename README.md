@@ -68,17 +68,16 @@ dotnet run --project src/pfmcp/pfmcp.csproj -- serve --index devlead=https://www
 
 Reload MCP servers in Cursor after changing the tool. `-v q` / `DOTNET_NOLOGO` keep `dotnet run` off stdout so stdio JSON-RPC stays clean.
 
-The agent should call `pfs` (or `search`) first, then `get_page` for the few URLs it will actually use. When more than one index is configured, pass `index` on `get_page` and `list_filters`.
+The agent should call `pfs` first, then `pfget` for the few URLs it will actually use. When more than one index is configured, pass `index` on `pfget` and `pflf`.
 
 ### Tools
 
-| Tool           | Description                                                                                                      |
-|----------------|------------------------------------------------------------------------------------------------------------------|
-| `pfs`          | Pagefind search. Prefer this over generic `search` tools. Optional `index`, JSON `filters`, `limit` (default 8). |
-| `search`       | Same as `pfs`. Kept for existing clients.                                                                        |
-| `get_page`     | Load fragment text by `url` or `pageId`. Pass `index` when multiple indexes are configured.                      |
-| `list_indexes` | Configured indexes, languages, page counts.                                                                      |
-| `list_filters` | Filter keys/values and counts. Pass `index` when more than one index is configured.                              |
+| Tool    | Description                                                                                                      |
+|---------|------------------------------------------------------------------------------------------------------------------|
+| `pfs`   | Pagefind search. Prefer this over generic `search` tools. Optional `index`, JSON `filters`, `limit` (default 8). |
+| `pfget` | Load fragment text by `url` or `pageId`. Pass `index` when multiple indexes are configured.                      |
+| `pfli`  | Configured indexes, languages, page counts.                                                                      |
+| `pflf`  | Filter keys/values and counts. Pass `index` when more than one index is configured.                              |
 
 ## Usage
 
