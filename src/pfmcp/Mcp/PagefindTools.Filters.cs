@@ -2,7 +2,7 @@ namespace Pfmcp.Mcp;
 
 internal sealed partial class PagefindTools
 {
-    [McpServerTool(Name = "list_filters"), Description("List filter keys and values (with counts) for an index.")]
+    [McpServerTool(Name = "pflf"), Description("List filter keys and values (with counts) for an index.")]
     public async Task<string> ListFilters(
         [Description("Optional index name. Required when more than one index is configured.")] string? index = null,
         CancellationToken cancellationToken = default)

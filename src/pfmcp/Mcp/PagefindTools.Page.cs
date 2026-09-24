@@ -2,7 +2,7 @@ namespace Pfmcp.Mcp;
 
 internal sealed partial class PagefindTools
 {
-    [McpServerTool(Name = "get_page"), Description("Load full page text from a Pagefind fragment by url or pageId. Pass index when multiple indexes are configured.")]
+    [McpServerTool(Name = "pfget"), Description("Load full page text from a Pagefind fragment by url or pageId. Pass index when multiple indexes are configured.")]
     public async Task<string> GetPage(
         [Description("Page URL from a search result.")] string? url = null,
         [Description("Page id (fragment hash) from a search result.")] string? pageId = null,
