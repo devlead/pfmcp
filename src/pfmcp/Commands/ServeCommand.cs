@@ -5,7 +5,7 @@ namespace Pfmcp.Commands;
 
 public sealed class ServeCommand(IndexCatalog catalog) : AsyncCommand<IndexSettings>
 {
-    protected override async Task<int> ExecuteAsync(CommandContext context, IndexSettings settings, CancellationToken cancellationToken)
+    public override async Task<int> ExecuteAsync(CommandContext context, IndexSettings settings, CancellationToken cancellationToken)
     {
         await catalog.InitializeAsync(settings, cancellationToken).ConfigureAwait(false);
 
