@@ -4,7 +4,7 @@ public sealed class SearchCommand(IndexCatalog catalog) : AsyncCommand<SearchSet
 {
     private static readonly JsonSerializerOptions JsonOptions = new() { WriteIndented = true };
 
-    protected override async Task<int> ExecuteAsync(CommandContext context, SearchSettings settings, CancellationToken cancellationToken)
+    public override async Task<int> ExecuteAsync(CommandContext context, SearchSettings settings, CancellationToken cancellationToken)
     {
         await catalog.InitializeAsync(settings, cancellationToken).ConfigureAwait(false);
         var hits = new List<SearchHit>();
