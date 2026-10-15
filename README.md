@@ -1,5 +1,7 @@
 # pfmcp
 
+[![NuGet](https://img.shields.io/nuget/v/pfmcp.svg)](https://www.nuget.org/packages/pfmcp)
+
 Search [Pagefind](https://pagefind.app/) indexes and expose them to agents as an MCP stdio server.
 
 Reads existing Pagefind bundles (local folders or HTTP) with a native .NET search engine — no Node, no WASM, no Pagefind CLI at runtime.
