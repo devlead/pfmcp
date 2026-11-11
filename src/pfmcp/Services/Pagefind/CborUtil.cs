@@ -13,6 +13,17 @@ internal static class CborUtil
         return checked((int)length.Value);
     }
 
+    // Skips trailing items newer Pagefind versions may append, then closes the array.
+    public static void ReadEndArray(CborReader reader)
+    {
+        while (reader.PeekState() != CborReaderState.EndArray)
+        {
+            reader.SkipValue();
+        }
+
+        reader.ReadEndArray();
+    }
+
     public static uint ReadUInt32(CborReader reader)
         => checked((uint)reader.ReadUInt64());
 
