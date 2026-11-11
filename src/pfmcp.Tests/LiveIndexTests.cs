@@ -15,7 +15,7 @@ public sealed class LiveIndexTests
         }
 
         var summary = catalog.Summaries().Single();
-        Assert.Equal("1.5.2", summary.Version);
+        Assert.Equal("1.6.0", summary.Version);
         Assert.Contains(summary.Languages, l => l.Language == "en" && l.PageCount == 35);
     }
 
