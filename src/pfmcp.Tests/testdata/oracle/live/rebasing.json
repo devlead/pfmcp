@@ -4,21 +4,23 @@
     "en_d54b98d",
     "en_9e8a1bf",
     "en_e893f87",
-    "en_53ee47d",
+    "en_dd76637",
     "en_f51a88e",
-    "en_64ca49a",
-    "en_a17b732",
-    "en_9cbd63b"
+    "en_ddd1391",
+    "en_ab7c6d7",
+    "en_9cbd63b",
+    "en_cc7f66c"
   ],
   "scores": [
-    2.2687736,
-    1.7300425,
-    1.4740267,
-    1.3181643,
-    1.0230988,
-    0.6491272,
-    0.6168209,
-    0.6139783
+    2.2687735557556152,
+    1.7300424575805664,
+    1.4740266799926758,
+    1.318164348602295,
+    1.0230988264083862,
+    0.649127185344696,
+    0.6168208718299866,
+    0.6139783263206482,
+    0.370735228061676
   ],
   "urls": [
     "https://www.devlead.se/posts/2021/2021-09-23-joining-the-net-foundation-board-of-directors.html",
@@ -28,6 +30,7 @@
     "https://www.devlead.se/posts/2021/2021-03-20-introducing-dpi.html",
     "https://www.devlead.se/posts/2021/2021-01-15-my-preferred-console-stack.html",
     "https://www.devlead.se/posts/2025/2025-03-12-static-web-app-wasm-search.html",
-    "https://www.devlead.se/posts/2026/2026-06-27-template-plus-source-package-my-dotnet-console-stack-in-2026.html"
+    "https://www.devlead.se/posts/2026/2026-06-27-template-plus-source-package-my-dotnet-console-stack-in-2026.html",
+    "https://www.devlead.se/posts/2017/2017-01-25-being-a-good-open-source-citizen.html"
   ]
 }

@@ -20,10 +20,10 @@ internal static partial class PagefindCodec
                 Hash = reader.ReadTextString(),
                 WordCount = CborUtil.ReadUInt32(reader)
             });
-            reader.ReadEndArray();
+            CborUtil.ReadEndArray(reader);
         }
 
-        reader.ReadEndArray();
+        CborUtil.ReadEndArray(reader);
 
         var chunks = new List<MetaChunk>();
         var chunkCount = CborUtil.ReadArrayLength(reader);
@@ -36,10 +36,10 @@ internal static partial class PagefindCodec
                 To = reader.ReadTextString(),
                 Hash = reader.ReadTextString()
             });
-            reader.ReadEndArray();
+            CborUtil.ReadEndArray(reader);
         }
 
-        reader.ReadEndArray();
+        CborUtil.ReadEndArray(reader);
 
         var filters = new List<MetaFilter>();
         var filterCount = CborUtil.ReadArrayLength(reader);
@@ -51,10 +51,10 @@ internal static partial class PagefindCodec
                 Filter = reader.ReadTextString(),
                 Hash = reader.ReadTextString()
             });
-            reader.ReadEndArray();
+            CborUtil.ReadEndArray(reader);
         }
 
-        reader.ReadEndArray();
+        CborUtil.ReadEndArray(reader);
 
         var sorts = new List<MetaSort>();
         var sortCount = CborUtil.ReadArrayLength(reader);
@@ -69,12 +69,12 @@ internal static partial class PagefindCodec
                 pageNums.Add(CborUtil.ReadUInt32(reader));
             }
 
-            reader.ReadEndArray();
+            CborUtil.ReadEndArray(reader);
             sorts.Add(new MetaSort { Sort = key, Pages = pageNums });
-            reader.ReadEndArray();
+            CborUtil.ReadEndArray(reader);
         }
 
-        reader.ReadEndArray();
+        CborUtil.ReadEndArray(reader);
 
         var metaFields = new List<string>();
         if (outer >= 6)
@@ -85,10 +85,10 @@ internal static partial class PagefindCodec
                 metaFields.Add(reader.ReadTextString());
             }
 
-            reader.ReadEndArray();
+            CborUtil.ReadEndArray(reader);
         }
 
-        reader.ReadEndArray();
+        CborUtil.ReadEndArray(reader);
 
         return new MetaIndex
         {
